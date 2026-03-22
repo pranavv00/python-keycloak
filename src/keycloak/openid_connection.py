@@ -30,9 +30,9 @@ of openid tokens when required.
 
 from __future__ import annotations
 
+import asyncio
 from datetime import datetime, timedelta, timezone
 from typing import TYPE_CHECKING, Any
-import asyncio
 
 if TYPE_CHECKING:
     from httpx import Response as AsyncResponse
